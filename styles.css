@@ -1,16 +1,44 @@
 .title {
     padding: 50px;
     background-color: black;
+    text-align: center;
+    font-family: 'Staatliches', cursive;
+    color: white;
+    letter-spacing: 4px;
+    font-size: 50px;
 }
 
 body {
     font-family: Roboto, sans-serif;
+    margin: 0
+}
 
+.header {
+    font-family: 'Ropa Sans', sans-serif;
+    text-align: center;
+    font-size: 25px;
+    padding-top: 20px;
+}
+
+.header::first-letter {
+    letter-spacing: -1.5px;
 }
 
 .column {
+    font-family: 'Ropa Sans', sans-serif;
     float: left;
-    width: 33.33%;
+    width: 32%;
+    padding: 5px;
+    text-align: center;
+    font-size: 1.2em;
+}
+
+.column h3 {
+    font-size: 1.5em;
+}
+
+.row {
+    margin-top: -20px
 }
 
 .row::after {
@@ -19,15 +47,21 @@ body {
     display: table;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 750px) {
     .column {
         width: 100%;
+        text-align: center;
     }
 }
 
 .footer {
-    background-color: #212121;
+    background-color: black;
     text-align: center;
+    color: white;
+    font-family: 'Ropa Sans', sans-serif;
+    position: static;
+    bottom: 0;
+    margin-bottom: -50px
 }
 
 .footer.icons {
