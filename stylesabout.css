@@ -1,0 +1,15 @@
+.about {
+    font-family: "Ropa Sans", sans-serif;
+    font-size: 20px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+.about h3 {
+    font-size: 25px;
+    margin-bottom: -10px;
+}
+
+.about a {
+    text-decoration: none;
+}

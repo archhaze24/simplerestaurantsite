@@ -8,6 +8,26 @@
     font-size: 50px;
 }
 
+.navbar {
+    background-color: black;
+    overflow: hidden;
+    margin-top: 1px;
+}
+
+.navbar a {
+    float: left;
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    font-family: Staatliches, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+.navbar a:hover {
+    background-color: #101010;
+}
+
 body {
     margin: 0
 }
@@ -21,55 +41,6 @@ body {
 
 .header::first-letter {
     letter-spacing: -1.5px;
-}
-
-.column {
-    font-family: 'Ropa Sans', sans-serif;
-    float: left;
-    width: calc(33.33% - 10px);
-    padding: 5px;
-    text-align: center;
-    font-size: 1.2em;
-    overflow: hidden;
-    word-wrap: normal;
-    word-break: normal;
-}
-
-img.food {
-    width: 29vw;
-    height: 29vw;
-}
-
-.column h3 {
-    font-size: 1.5em;
-}
-
-.row {
-    margin-top: -20px
-}
-
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-.after-column {
-    text-align: center;
-    padding: 0 5px;
-    font-family: "Ropa Sans", sans-serif;
-    font-size: 30px;
-}
-
-@media screen and (max-width: 600px) {
-    .column {
-        width: 100%;
-        text-align: center;
-    }
-    img.food {
-        width: 75vw;
-        height: 75vw;
-    }
 }
 
 .footer {
