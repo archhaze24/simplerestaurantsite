@@ -11,8 +11,8 @@
 }
 
 img.food {
-    width: 29vw;
-    height: 29vw;
+    width: 25vw;
+    height: 25vw;
 }
 
 .column h3 {
@@ -34,6 +34,13 @@ img.food {
     padding: 0 5px;
     font-family: "Ropa Sans", sans-serif;
     font-size: 30px;
+}
+
+@media screen and (min-width: 1500px) {
+    img.food {
+        width: 20vw;
+        height: 20vw;
+    }
 }
 
 @media screen and (max-width: 600px) {
